@@ -7,7 +7,7 @@
     "swagger": "npx tsoa spec-and-routes",
     "build": "npm run swagger && npx tsc",
     "start": "node --env-file .env dist/index.js",
-    "build-start": "npm run build && npm run start"
+    "docker": "docker compose -f docker/compose.yml up --build"
   },
   "keywords": [],
   "author": "",

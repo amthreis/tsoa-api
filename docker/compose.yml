@@ -1,0 +1,7 @@
+services:
+  swg-auto:
+    ports:
+      - 14005:14005
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
